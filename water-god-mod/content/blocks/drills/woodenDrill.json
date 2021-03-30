@@ -21,7 +21,7 @@
 		}
 	},
 	"requirements": [
-		"{item": "wood", "amount": 24}
+		{item": "wood", "amount": 24}
 	],
 	"category": "production",
 	"research": "wood"
