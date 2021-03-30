@@ -2,7 +2,7 @@
 	"type": "Pump",
 	"name": "wooden pump",
 	"description": "very slow pump",
-	"health": 90,
+	"health": 45,
 	"liquidCapacity": 20,
 	"pumpAmount": 0.05,
 	"size": 3,
