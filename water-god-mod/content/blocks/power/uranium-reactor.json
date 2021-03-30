@@ -11,7 +11,7 @@
 	"powerProduction": 225,
 	"consumes": {
 		"items": {
-			"items": [
+			"items": {
 				{"item": "uranium", "amount": 1}
 			]
 		},
@@ -28,7 +28,7 @@
 		{"item": "silicon", "amount": 1000},
 		{"item": "uranium", "amount": 200}
 	],
-	"category": "power"
+	"category": "power",
 	"heating": 0.05
 	"research": "thorium-reactor"
 }
