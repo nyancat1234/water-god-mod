@@ -1,14 +1,14 @@
 {
-    "type": "Pump",
-    "name": "wooden pump",
-    "description": "very slow pump",
-    "health": 90,
-    "liquidCapacity": 20,
-    "pumpAmount": 0.05,
-    "size": 3,
-    "requirements": [
-        {"item": "wood", "amount": 20}
-    ],
-    "category": "liquid",
-    "research": "water"
+	"type": "Pump",
+	"name": "wooden pump",
+	"description": "very slow pump",
+	"health": 90,
+	"liquidCapacity": 20,
+	"pumpAmount": 0.05,
+	"size": 3,
+	"requirements": [
+		{"item": "wood", "amount": 20}
+	],
+	"category": "liquid",
+	"research": "water"
 }
