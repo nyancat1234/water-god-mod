@@ -8,6 +8,6 @@
 	"requirements": [
 		{"item": "wood", "amount": 1000}
 	],
-	"category": "power"
+	"category": "power",
 	"research": "wood"
 }
