@@ -4,7 +4,7 @@
 	"description": "very slow gererator",
 	"health": 100,
 	"size": 10,
-	"powerProduction": 5,
+	"powerProduction": 2.5,
 	"requirements": [
 		{"item": "wood", "amount": 1000}
 	],
