@@ -1,0 +1,13 @@
+{
+    "name": "Melten Mineral III",
+    "description": "melten",
+    "color": "#ACCDDB",
+    "viscosity": 0.5,
+    "temperature": 1.4,
+    "research": {
+        "parent": "mineral-III"
+        "requirements": [
+            {"item": "metaglass", "amount": 10000}
+        ]
+    },
+}

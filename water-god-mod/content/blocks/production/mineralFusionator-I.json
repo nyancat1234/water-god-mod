@@ -1,0 +1,26 @@
+{
+    "type": "GenericCrafter",
+    "name": "Mineral Fusionator I",
+    "description": "[#FF00FF]FUSION",
+    "health": 2700,
+    "itemCapacity": 250,
+    "outputItem": {"item": "mineral-II", "amount": "1"},
+    "size": 3,
+    "craftTime": 30,
+    "consumes": {
+        "power": 2.5,
+        "items": {
+            "items": [
+                {"item": "mineral-I", "amount": 25}
+            ]
+        }
+    },
+    "requirements": [
+		{"item": "copper", "amount": 250},
+		{"item": "lead", "amount": 200},
+		{"item": "graphite", "amount": 80},
+		{"item": "scrap", "amount": 300}
+	],
+    "category": "crafting",
+    "research": "mineral-I"
+}

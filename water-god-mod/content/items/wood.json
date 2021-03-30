@@ -1,0 +1,15 @@
+{
+    "type": "material",
+    "name": "wood",
+    "description": "it's a very basic material.",
+    "hardness": 1,
+    "cost": 0.5,
+    "color": "#AC6E39",
+    "flammability": 0.75,
+    "research": {
+        "parent": "spore-pod"
+        "requirements": [
+            {"item": "spore-pod", "amount": 1000}
+        ]
+    },
+}

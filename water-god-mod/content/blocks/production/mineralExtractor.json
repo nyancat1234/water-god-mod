@@ -1,0 +1,36 @@
+{
+    "type": "Separator",
+    "name": "Mineral Extractor",
+    "description": "It extracts very useful minerals from water",
+    "health": 2700,
+    "itemCapacity": 30,
+    "liquidCapacity": 1000,
+    "results": [
+        {"item": "mineral-I", "amount": 600},
+        {"item": "mineral-II", "amount": 120},
+        {"item": "mineral-III", "amount": 25},
+        {"item": "mineral-IV", "amount": 4},
+        {"item": "mineral-V", "amount": 1}
+    ],
+    "size": 3,
+    "hasPower": true,
+    "craftTime": 3,
+    "consumes": {
+        "power": 3,
+	    "liquid": {
+            "liquid": "water",
+            "amount": 6
+        }
+    },
+    "requirements": [
+		{"item": "copper", "amount": 500},
+		{"item": "lead", "amount": 350},
+		{"item": "graphite", "amount": 250},
+		{"item": "coal", "amount": 1000},
+		{"item": "wood", "amount": "1000},
+		{"item": "silicon", "amount": 100}
+	],
+    "category": "crafting",
+    "research": "woodCultivator",
+    "spinnerSpeed": 20
+}

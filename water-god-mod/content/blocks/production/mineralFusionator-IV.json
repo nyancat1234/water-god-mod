@@ -1,0 +1,28 @@
+{
+    "type": "GenericCrafter",
+    "name": "Mineral Fusionator IV",
+    "description": "[#FF00FF]FUSION",
+    "health": 8100,
+    "itemCapacity": 250,
+    "outputItem": {"item": "mineral-V", "amount": "1"},
+    "size": 3,
+    "craftTime": 30,
+    "consumes": {
+        "power": 10,
+        "items": {
+            "items": [
+                {"item": "mineral-IV", "amount": 25}
+            ]
+        }
+    },
+    "requirements": [
+		{"item": "copper", "amount": 750},
+		{"item": "lead", "amount": 600},
+		{"item": "graphite", "amount": 400},
+		{"item": "titanium", "amount": 300},
+		{"item": "thorium", "amount": 200},
+		{"item": "surge-alloy", "amount": 50}
+	],
+    "category": "crafting",
+    "research": "mineral-IV"
+}

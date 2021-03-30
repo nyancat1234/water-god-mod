@@ -1,0 +1,14 @@
+{
+    "type": "material",
+    "name": "[#8888FF]water ball",
+    "description": "[#8888FF]water",
+    "hardness": 0,
+    "cost": 0.1,
+    "color": "#486ACD",
+    "research": {
+        "parent": "water"
+        "requirements": [
+            {"item": "metaglass", "amount": 10000}
+        ]
+    },
+}

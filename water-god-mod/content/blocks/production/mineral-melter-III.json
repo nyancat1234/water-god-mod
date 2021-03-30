@@ -1,0 +1,37 @@
+{
+    "type": "GenericCrafter",
+    "name": "Mineral Melter III",
+    "description": "it melts normal size minerals",
+    "health": 600,
+    "size": 2,
+    "hasLiquids": true,
+    "hasPower": true,
+    "itemCapacity": 50,
+    "liquidCapacity": 20,
+    "outputLiquid": {
+        "liquid": "meltenMineral-III",
+        "amount": 12.0
+    },
+    "craftTime": 10,
+    "consumes": {
+        "power": 5,
+        "items": {
+            "items": [
+                {"item": "coal", "amount": 1},
+                {"item": "pyratite", "amount": 1},
+                {"item": "mineral-I", "amount": 4},
+                {"item": "mineral-II", "amount": 2},
+                {"item": "mineral-III", "amount": 1}
+            ]
+        }
+    },
+    "requirements": [
+		{"item": "copper", "amount": 750},
+		{"item": "lead", "amount": 500},
+		{"item": "graphite", "amount": 300},
+		{"item": "titanium", "amount": 250},
+		{"item": "thorium", "amount": 100}
+	],
+    "category": "crafting",
+    "research": "meltenMineral-III"
+}

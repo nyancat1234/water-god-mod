@@ -1,0 +1,29 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "Hydroelectric Generator",
+	"description": "cheap way to generate",
+	"health": 100,
+	"itemCapacity": 2,
+	"liquidCapacity": 30,
+	"size": 2,
+	"hasLiquids": true,
+	"itemDuration": 3000
+	"powerProduction": 1.5,
+	"consumes": {
+	    "items": {
+			"items": [
+				{"item": "wood", "amount": 1}
+			]
+		},
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.2
+		}
+	},
+	"requirements": [
+		{"item": "copper", "amount": 50},
+		{"item": "wood", "amount": 150}
+	],
+	"category": "power"
+	"research": "combustion-generator"
+}

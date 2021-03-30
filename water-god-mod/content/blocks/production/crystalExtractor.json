@@ -1,0 +1,36 @@
+{
+    "type": "Separator",
+    "name": "[#FF0000]C[#FF8800]r[#FFFF00]y[#00FF00]s[#7777FF]t[#0000FF]a[#CC00FF]l [][][][][][][]Extractor",
+    "description": "It extracts few [#FF0000]c[#FF8800]r[#FFFF00]y[#00FF00]s[#7777FF]t[#0000FF]a[#CC00FF]l",
+    "health": 81000,
+    "itemCapacity": 1000,
+    "liquidCapacity": 10000,
+    "results": [
+        {"item": "mineral-I", "amount": 999999},
+        {"item": "crystal", "amount": 1}
+    ],
+    "size": 9,
+    "hasPower": true,
+    "craftTime": 0.1,
+    "consumes": {
+        "power": 150,
+	    "liquid": {
+            "liquid": "cryofluid",
+            "amount": 5
+        }
+    },
+    "requirements": [
+        {"item": "copper", "amount": 8000},
+        {"item": "lead", "amount": 8000},
+        {"item": "graphite", "amount": 3500},
+        {"item": "silicon", "amount": 2000},
+        {"item": "titanium", "amount": 3000},
+        {"item": "plastanium", "amount": 1800},
+		{"item": "phase-fabric", "amount": 1500},
+        {"item": "thorium", "amount": 2500},
+        {"item": "surge-alloy", "amount": 800}
+	],
+    "category": "crafting",
+    "research": "woodCultivator",
+    "spinnerSpeed": 15
+}

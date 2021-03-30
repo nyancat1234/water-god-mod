@@ -1,0 +1,34 @@
+{
+	"type": "NuclearReactor",
+	"name": "[#FFFF00]Uranium []Reactor",
+	"description": "it makes much power by using [#FFFF00]Uranium",
+	"health": 2100,
+	"itemCapacity": 300,
+	"liquidCapacity": 50,
+	"size": 3,
+	"hasLiquids": true,
+	"itemDuration": 240,
+	"powerProduction": 225,
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "uranium", "amount": 1}
+			]
+		},
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 0.2
+		}
+	},
+	"requirements": [
+		{"item": "lead", "amount": 1500},
+		{"item": "metaglass", "amount": 250},
+		{"item": "graphite", "amount": 1000},
+		{"item": "thorium", "amount": 750},
+		{"item": "silicon", "amount": 1000},
+		{"item": "uranium", "amount": 200}
+	],
+	"category": "power"
+	"heating": 0.05
+	"research": "thorium-reactor"
+}
