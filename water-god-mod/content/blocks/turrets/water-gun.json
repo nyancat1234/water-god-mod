@@ -68,7 +68,7 @@
                         "homingPower": 0.4,
                         "homingRange": 800
                         "despawnEffect": "none",
-                        "fragBullets": 2,
+                        "fragBullets": 5,
                         "fragBullet": "heavyWaterShot"
                     }
                 }
@@ -80,11 +80,11 @@
 	"shots": 1,
 	"targetGround": true,
 	"targetAir": true,
-	"rotateSpeed": 25,
+	"rotateSpeed": 5,
 	"inaccurary": 0,
 	"maxAmmo": 10,
 	"requirements": [
-		{ "item": "metaglass", "amount": 50}
+		{ "item": "metaglass", "amount": 350}
 	],
 	"category": "turret"
 	"research": "water"
