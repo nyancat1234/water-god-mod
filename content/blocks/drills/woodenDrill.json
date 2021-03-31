@@ -2,7 +2,7 @@
 	"type": "Drill",
 	"name": "wooden drill",
 	"description": "very slow drill",
-	"health": 160,
+	"health": 32,
 	"tier": 2,
 	"liquidCapacity": 10,
 	"drillTime": 1200,
