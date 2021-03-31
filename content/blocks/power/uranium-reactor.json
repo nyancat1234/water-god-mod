@@ -10,8 +10,9 @@
 	"itemDuration": 240,
 	"powerProduction": 225,
 	"consumes": {
-		"items": [
-			"items": {"item": "uranium", "amount": 1}
+		"items": {
+			"items": [
+				"item": "uranium", "amount": 1
 			]
 		},
 		"liquid": {
