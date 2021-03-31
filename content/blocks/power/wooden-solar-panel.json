@@ -2,11 +2,11 @@
 	"type": "SolarGenerator",
 	"name": "wooden solar panel",
 	"description": "very slow gererator",
-	"health": 100,
+	"health": 200,
 	"size": 10,
 	"powerProduction": 2.5,
 	"requirements": [
-		{"item": "wood", "amount": 1000}
+		{"item": "wood", "amount": 500}
 	],
 	"category": "power",
 	"research": "wood"
