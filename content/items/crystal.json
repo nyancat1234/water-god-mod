@@ -1,0 +1,18 @@
+{
+    "type": "material",
+    "name": "[#FF0000]C[#FF8800]R[#FFFF00]Y[#00FF00]S[#7777FF]T[#0000FF]A[#CC00FF]L",
+    "description": "THE MOST VALUABLE MATTER.",
+    "hardness": 10000,
+    "cost": 10000,
+    "color": "#C0ECFF",
+    "research": {
+        "parent": "mineral-V"
+        "requirements": [
+            {"item": "mineral-I", "amount": 100000},
+            {"item": "mineral-II", "amount": 25000},
+            {"item": "mineral-III", "amount": 10000},
+            {"item": "mineral-IV", "amount": 2500},
+            {"item": "mineral-V", "amount": 1000}
+        ]
+    },
+}

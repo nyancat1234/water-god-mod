@@ -1,0 +1,15 @@
+{
+    "type": "material",
+    "name": "mineral V",
+    "description": "bigger mineral",
+    "hardness": 5,
+    "cost": 5,
+    "color": "#8BD3EF",
+    "research": {
+        "parent": "mineral-IV"
+        "requirements": [
+            {"item": "mineral-IV", "amount": 1000},
+            {"item": "metaglass", "amount": 500000}
+        ]
+    },
+}

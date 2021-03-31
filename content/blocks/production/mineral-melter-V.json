@@ -1,0 +1,47 @@
+{
+    "type": "GenericCrafter",
+    "name": "Mineral Melter V",
+    "description": "it melts bigger minerals",
+    "health": 800,
+    "size": 2,
+    "hasLiquids": true,
+    "hasPower": true,
+    "itemCapacity": 200,
+    "liquidCapacity": 20,
+    "outputLiquid": {
+        "liquid": "meltenMineral-V",
+        "amount": 20.0
+    },
+    "craftTime": 10,
+    "consumes": {
+        "power": 7.5,
+        "items": {
+            "items": [
+                {"item": "coal", "amount": 3},
+                {"item": "pyratite", "amount": 2},
+                {"item": "mineral-I", "amount": 20},
+                {"item": "mineral-II", "amount": 10},
+                {"item": "mineral-III", "amount": 4},
+                {"item": "mineral-IV", "amount": 2},
+                {"item": "mineral-V", "amount": 1}
+            ]
+        },
+        "liquid": {
+            "liquid": "oil",
+            "amount": 0.9
+        },
+    },
+    "requirements": [
+		{"item": "copper", "amount": 4000},
+		{"item": "lead", "amount": 3000},
+		{"item": "graphite", "amount": 2000},
+		{"item": "titanium", "amount": 2000},
+		{"item": "thorium", "amount": 1500},
+		{"item": "plastanium", "amount": 1500},
+		{"item": "phase-fabric", "amount": 500},
+		{"item": "surge-alloy", "amount": 500},
+		{"item": "crystal", "amount": 10},
+	],
+    "category": "crafting",
+    "research": "meltenMineral-V"
+}

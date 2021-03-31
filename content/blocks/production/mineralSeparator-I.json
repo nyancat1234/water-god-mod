@@ -1,0 +1,32 @@
+{
+    "type": "Separator",
+    "name": "Mineral Separator I",
+    "description": "It separates matters from mineral",
+    "health": 2700,
+    "itemCapacity": 10,
+    "liquidCapacity": 10,
+    "results": [
+        {"item": "copper", "amount": 3},
+        {"item": "lead", "amount": 2},
+        {"item": "scrap", "amount": 25}
+    ],
+    "size": 3,
+    "hasPower": true,
+    "craftTime": 30,
+    "consumes": {
+        "power": 1.5,
+	    "liquid": {
+            "liquid": "meltenMineral-I",
+            "amount": 0.075
+        }
+    },
+    "requirements": [
+        {"item": "copper", "amount": 150},
+        {"item": "lead", "amount": 100},
+        {"item": "silicon", "amount": 30},
+        {"item": "scrap", "amount": 75}
+    ],
+    "category": "crafting",
+    "research": "mineral-melter-I",
+    "spinnerSpeed": 5
+}

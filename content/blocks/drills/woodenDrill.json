@@ -1,0 +1,28 @@
+{
+	"type": "Drill",
+	"name": "wooden drill",
+	"description": "very slow drill",
+	"health": 160,
+	"tier": 2,
+	"liquidCapacity": 20,
+	"drillTime": 1200,
+	"rotateSpeed": 1,
+	"updateEffect": "pulverizeMedium",
+	"drillEffect": "mineBig",
+	"updateEffectChance": 0.03,
+	"size": 4,
+	"liquidBoostIntensity": 2,
+	"consumes": {
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.4,
+			"optional": true,
+			"booster": true
+		}
+	},
+	"requirements": [
+		{"item": "wood", "amount": 24}
+	],
+	"category": "production",
+	"research": "wood"
+}

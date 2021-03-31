@@ -1,0 +1,15 @@
+{
+    "type": "material",
+    "name": "mineral III",
+    "description": "normal size mineral",
+    "hardness": 3,
+    "cost": 3,
+    "color": "#89D1ED",
+    "research": {
+        "parent": "mineral-II"
+        "requirements": [
+            {"item": "mineral-II", "amount": 1000},
+            {"item": "metaglass", "amount": 5000}
+        ]
+    },
+}

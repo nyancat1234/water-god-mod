@@ -1,0 +1,12 @@
+{
+	"type": "Wall",
+    "name": "wooden wall",
+	"description": "very weak wall",
+	"health": 120,
+	"size": 1,
+	"requirements": [
+		{ "item": "wood", "amount": 12}
+	],
+	"category": "defense"
+	"research": "wood"
+}

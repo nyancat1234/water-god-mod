@@ -1,0 +1,13 @@
+{
+    "name": "Melten Mineral IV",
+    "description": "melten",
+    "color": "#A1CEE0",
+    "viscosity": 0.5,
+    "temperature": 1.7,
+    "research": {
+        "parent": "mineral-IV"
+        "requirements": [
+            {"item": "metaglass", "amount": 100000}
+        ]
+    },
+}

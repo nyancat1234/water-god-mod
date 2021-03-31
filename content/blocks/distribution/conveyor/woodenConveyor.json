@@ -1,0 +1,13 @@
+{
+	"type": "Conveyor",
+	"name": "wooden conveyor",
+	"description": "very slow conveyor",
+	"health": 2,
+	"speed": 0.01,
+	"displayedSpeed": 1.5,
+	"requirements": [
+		{"item": "wood", "amount": 2}
+	],
+	"category": "distribution",
+	"research": "wood"
+}

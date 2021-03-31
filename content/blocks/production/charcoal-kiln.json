@@ -1,0 +1,26 @@
+{
+    "type": "GenericCrafter",
+    "name": "Charcoal Kiln",
+    "description": "it makes more coal by using wood",
+    "health": 200,
+    "itemCapacity": 50,
+    "outputItem": {"item": "coal", "amount": "10"},
+    "size": 2,
+    "hasItem": true,
+    "craftTime": 60,
+    "consumes": {
+        "items": {
+            "items": [
+                {"item": "wood", "amount": 10},
+                {"item": "coal", "amount": 1}
+            ]
+        }
+    },
+    "requirements": [
+		{ "item": "copper", "amount": 150},
+		{ "item": "lead", "amount": 100},
+		{ "item": "graphite", "amount": 30}
+	],
+    "category": "crafting",
+    "research": "coal"
+}

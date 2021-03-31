@@ -1,0 +1,31 @@
+{
+    "type": "GenericCrafter",
+    "name": "Mineral Fusionator V",
+    "description": "[#FF00FF]FUSION",
+    "health": 13500,
+    "itemCapacity": 250,
+    "outputItem": {"item": "crystal", "amount": "1"},
+    "size": 3,
+    "craftTime": 30,
+    "consumes": {
+        "power": 12.5,
+        "items": {
+            "items": [
+                {"item": "mineral-V", "amount": 50}
+            ]
+        }
+    },
+    "requirements": [
+		{"item": "copper", "amount": 1000},
+		{"item": "lead", "amount": 850},
+		{"item": "graphite", "amount": 650},
+		{"item": "titanium", "amount": 600},
+		{"item": "plastanium", "amount": 350},
+		{"item": "phase-fabric", "amount": 200},
+		{"item": "thorium", "amount": 400},
+		{"item": "surge-alloy", "amount": 100},
+		{"item": "crystal", "amount": 8}
+	],
+    "category": "crafting",
+    "research": "mineral-V"
+}

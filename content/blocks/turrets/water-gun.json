@@ -1,0 +1,91 @@
+{
+	"type": "ItemTurret",
+    "name": "[#8888FF]water gun",
+	"description": "[#8888FF]it shoots water",
+	"health": 60,
+	"size": 1,
+    "ammoTypes": {
+        "water-ball": {
+            "type": "MissileBulletType",
+            "damage": 5,
+            "speed": 5,
+            "knockback": 10,
+            "lifetime": 60,
+            "width": 64,
+            "height": 64,
+            "hitEffect": "blastExplosion",
+            "sprite": "water-god-mod-water-boom",
+            "splashDamage": 5,
+            "splashDamageRadius": 1200,
+            "homingPower": 0.2,
+            "homingRange": 800
+            "despawnEffect": "blastExplosion",
+            "fragBullets": 5,
+            "fragBullet": {
+                "type": "MissileBulletType",
+                "damage": 1,
+                "speed": 4,
+                "knockback": 5,
+                "lifetime": 120,
+                "width": 48,
+                "height": 48,
+                "hitEffect": "blastExplosion",
+                "sprite": "water-god-mod-water-boom",
+                "splashDamage": 1,
+                "splashDamageRadius": 600,
+                "homingPower": 0.25,
+                "homingRange": 800
+                "despawnEffect": "blastExplosion",
+                "fragBullets": 5,
+                "fragBullet": {
+                    "type": "MissileBulletType",
+                    "damage": 0.3,
+                    "speed": 5,
+                    "knockback": 2.5,
+                    "lifetime": 120,
+                    "width": 24,
+                    "height": 24,
+                    "hitEffect": "blastExplosion",
+                    "sprite": "water-god-mod-water-boom",
+                    "splashDamage": 0.3,
+                    "splashDamageRadius": 300,
+                    "homingPower": 0.3,
+                    "homingRange": 800
+                    "despawnEffect": "none",
+                    "fragBullets": 5,
+                    "fragBullet": {
+                        "type": "MissileBulletType",
+                        "damage": 0.1,
+                        "speed": 7.5,
+                        "knockback": 1.2,
+                        "lifetime": 120,
+                        "width": 12,
+                        "height": 12,
+                        "hitEffect": "blastExplosion",
+                        "sprite": "water-god-mod-water-boom",
+                        "splashDamage": 0.1,
+                        "splashDamageRadius": 150,
+                        "homingPower": 0.4,
+                        "homingRange": 800
+                        "despawnEffect": "none",
+                        "fragBullets": 5,
+                        "fragBullet": "heavyWaterShot"
+                    }
+                }
+            }
+	    }
+	},
+	"reloadTime": 300,
+	"range": 230,
+	"shots": 1,
+	"targetGround": true,
+	"targetAir": true,
+	"rotateSpeed": 5,
+	"inaccurary": 0,
+	"maxAmmo": 10,
+	"requirements": [
+		{ "item": "metaglass", "amount": 350}
+	],
+	"category": "turret"
+	"research": "water"
+}
