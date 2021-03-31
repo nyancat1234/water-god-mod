@@ -12,7 +12,7 @@
 	"consumes": {
 		"items": {
 			"items": [
-				"item": "uranium", "amount": 1
+				{"item": "uranium", "amount": 1}
 			]
 		},
 		"liquid": {
