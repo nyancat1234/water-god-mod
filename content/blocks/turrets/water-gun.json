@@ -14,7 +14,7 @@
             "width": 64,
             "height": 64,
             "hitEffect": "blastExplosion",
-            "sprite": "water-god-mod-water-boom",
+            "sprite": "water-god-mod-nyancat",
             "splashDamage": 5,
             "splashDamageRadius": 1200,
             "homingPower": 0.2,
@@ -30,7 +30,7 @@
                 "width": 48,
                 "height": 48,
                 "hitEffect": "blastExplosion",
-                "sprite": "water-god-mod-water-boom",
+                "sprite": "water-god-mod-nyancat",
                 "splashDamage": 1,
                 "splashDamageRadius": 600,
                 "homingPower": 0.25,
@@ -46,7 +46,7 @@
                     "width": 24,
                     "height": 24,
                     "hitEffect": "blastExplosion",
-                    "sprite": "water-god-mod-water-boom",
+                    "sprite": "water-god-mod-nyancat",
                     "splashDamage": 0.3,
                     "splashDamageRadius": 300,
                     "homingPower": 0.3,
@@ -62,14 +62,14 @@
                         "width": 12,
                         "height": 12,
                         "hitEffect": "blastExplosion",
-                        "sprite": "water-god-mod-water-boom",
+                        "sprite": "water-god-mod-nyancat",
                         "splashDamage": 0.1,
                         "splashDamageRadius": 150,
                         "homingPower": 0.4,
                         "homingRange": 800
                         "despawnEffect": "none",
                         "fragBullets": 5,
-                        "fragBullet": "heavyWaterShot"
+                        "fragBullet": "heavySlagShot"
                     }
                 }
             }
