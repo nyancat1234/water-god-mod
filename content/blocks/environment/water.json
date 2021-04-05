@@ -1,6 +1,6 @@
 {
 	"itemDrop": "sand",
-	"liquidDrop" = "water",
-	"liquidMultiplier" = 2,
-	"speedMultiplier" = 0.5
+	"liquidDrop": "water",
+	"liquidMultiplier": 2,
+	"speedMultiplier": 0.5
 }
