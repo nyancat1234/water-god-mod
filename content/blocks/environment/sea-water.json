@@ -1,0 +1,14 @@
+{
+	"type": "floor",
+	"name": "Sea Water",
+	"variants": 0,
+	"speedMultiplier": 2,
+	"status": "wet",
+	"statusDuration": 90,
+	"itemDrop": "sand",
+	"liquidDrop": "sea-water"
+	"liquidMultiplier": 2,
+	"isLiquid": "true",
+	"cacheLayer": "water",
+	"albedo": 0.5,
+}
