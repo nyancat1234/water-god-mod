@@ -1,0 +1,15 @@
+{
+    "name": "Sea Water",
+    "description": "much mineral is contained",
+    "color": "#4B399D",
+    "viscosity": 0.5,
+    "temperature": 0.4,
+    "flammability": 0.2,
+    "StatusEffect": "wet",
+    "research": {
+        "parent": "water"
+        "requirements": [
+            {"item": "metaglass", "amount": 5000}
+        ]
+    },
+}
